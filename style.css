@@ -54,7 +54,7 @@ body {
 }
 
 .container-hero {
-  flex: 0 0 37%;
+  flex: 0 0 47%;
   position: relative;
 }
 
@@ -65,6 +65,7 @@ body {
 .container-hero .desktop-img {
   position: fixed;
   height: 100%;
+  width: 47%;
   object-fit: cover;
 }
 
@@ -151,7 +152,7 @@ body {
 }
 
 
-@media (max-width: 719px) {
+@media (max-width: 720px) {
     body {
         overflow-y: scroll;
     }
@@ -200,7 +201,7 @@ body {
    }
 }
 
-@media screen and (width >= 720px) and (width <= 1024px) {
+@media screen and (width > 720px) and (width <= 1000px) {
     body {
     display: flex;
     justify-content: center;
