@@ -28,12 +28,17 @@
             <h1>We're<span>coming</span><span>soon</span></h1>
             <p>Hello fellow shoppers! We're currently building our new fashion store. 
               Add your email below to stay up-to-date with announcements and our launch deals.</p>
-            </div>
+             </div>
             
           <form class="input-form" name="form1">
-              <input type="email" name="emailValid" id="email" placeholder="Email Address">
+              <input type="email"
+                     name="emailValid" 
+                     id="email"
+                     placeholder="Email Address">
               <img src="images/icon-error.svg" alt="" class="error-img" id="error-img">
-              <button type="button" id="validation" class="btn" onclick="validateEmail(document.form1.emailValid)"><img src="images/icon-arrow.svg" alt=""></button>
+              <button type="button" id="validation" class="btn" onclick="validateEmail(document.form1.emailValid)" aria-label="Submit button">
+                <img src="images/icon-arrow.svg" alt="">
+              </button>
               <span id="validation-text"></span>
             </form>
           </div>
