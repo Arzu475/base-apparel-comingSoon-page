@@ -217,6 +217,7 @@ body {
    .container-hero .desktop-img {
     border-radius: 0 10px 10px 0;
     position: relative;
+    width: 100%;
    }
 
    .content-text {
